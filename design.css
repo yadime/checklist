@@ -1,0 +1,98 @@
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th {
+  background-color: white;
+  font-weight: bold;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background: #dedb08d8;
+  transform: scale(1.01);
+  transition: .6s;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  margin: 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.student_Css {
+  border-collapse: collapse;
+}
+
+.student_Css td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.course-table {
+  margin-top: 20px;
+}
+
+.search-box {
+  margin-bottom: 10px;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.course-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.course-table th,
+.course-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.course-table th {
+  background-color: #f2f2f2;
+}
